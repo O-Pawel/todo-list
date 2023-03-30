@@ -1,3 +1,8 @@
+.list__item {
+    display: flexbox;
+    align-items: center;
+}
+
 .list__item--done {
     text-decoration: line-through;
     color: #808080;
