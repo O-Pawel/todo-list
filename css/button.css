@@ -1,4 +1,26 @@
 .addTaskButton {
     background-color: teal;
     color:azure;
+    padding: 14px;
+    border: none;
+    font-size: 20px;
 }
+
+.done {
+   color: white;
+   background-color: green;
+   border: none;
+   font-size: 30px;
+   width: 46px;
+   height: 46px;
+}
+
+.remove {
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: none;
+    font-size: 24px;
+    width: 46px;
+    height: 46px;
+ }

@@ -54,9 +54,10 @@
             <li 
             class="list__item ${task.done ? "list__item--done" : ""}"  
             >
-            <button class="js-done">Zrobione ?</button>
-            <button class="js-remove">Usuń zadanie</button>
-            ${task.content}    
+            <button class="done js-done"> ${task.done ? "✔" : ""}</button>
+            ${task.content} 
+            <button class="remove js-remove">🗑️</button>        
+            <hr>   
             </li>
             `;
         }
