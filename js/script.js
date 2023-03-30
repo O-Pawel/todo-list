@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "zadanie 1",
-            done: false,
-        },
-        {
-            content: "zadanie 2",
-            done: true,
-        },
-    ];
+    const tasks = [    ];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -51,11 +42,9 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li 
-            class="list__item ${task.done ? "list__item--done" : ""}"  
-            >
+            <li>
             <button class="done js-done"> ${task.done ? "✔" : ""}</button>
-            ${task.content} 
+            <span class="list__item ${task.done ? "list__item--done" : ""}">${task.content}</span> 
             <button class="remove js-remove">🗑️</button>        
             <hr>   
             </li>
