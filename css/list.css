@@ -1,9 +1,20 @@
+.list {
+    list-style: none;
+    padding: 0 20px;
+}
+
 .list__item {
-    display: flexbox;
+    display: flex;
     align-items: center;
 }
 
-.list__item--done {
+.list__task {
+    font-size: 20px;
+    margin: 0 12px;
+    flex-grow: 1;
+}
+
+.list__task--done {
     text-decoration: line-through;
     color: #808080;
 }

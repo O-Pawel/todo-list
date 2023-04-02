@@ -19,7 +19,15 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 200px;
-    gap: 0 10px;
+    gap: 0 20px;
+}
+
+@media (max-width: 767px) {
+    .container__item--form {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 .container__item--marginTop {
@@ -31,6 +39,8 @@
     font-size: 20px;
 }
 
-.container__list {
-    list-style: none;
+@media (max-width: 767px) {
+    .container__input {
+        border: 1px solid #ededed;
+    }
 }

@@ -1,18 +1,27 @@
 .addTaskButton {
     background-color: teal;
-    color:azure;
+    color: azure;
     padding: 14px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .addTaskButton {
+        margin-top: 10px;
+    }
 }
 
 .done {
-   color: white;
-   background-color: green;
-   border: none;
-   font-size: 30px;
-   width: 46px;
-   height: 46px;
+    color: white;
+    background-color: green;
+    border: none;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
 }
 
 .remove {
@@ -20,7 +29,9 @@
     background-color: red;
     text-align: center;
     border: none;
+    margin-right: 10px;
     font-size: 24px;
     width: 46px;
     height: 46px;
- }
+    cursor: pointer;
+}
