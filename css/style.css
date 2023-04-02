@@ -12,3 +12,10 @@ body {
     max-width: 1080px;
     margin: 120px auto;
 }
+
+@media (max-width: 767px) {
+    body {
+        margin: 40px 20px 0;
+    }
+    
+}
