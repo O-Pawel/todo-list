@@ -60,6 +60,8 @@
     const onFormSubmit = (event) => {
         event.preventDefault();
 
+        document.querySelector(".js-newTask").focus();
+
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
         if (newTaskContent === "") {
