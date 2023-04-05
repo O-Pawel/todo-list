@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 767px) {
-    .container__item--form {
+    .container__form {
         display: flex;
         flex-direction: column;
     }

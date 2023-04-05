@@ -22,6 +22,7 @@
     width: 46px;
     height: 46px;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 .remove {
@@ -34,4 +35,5 @@
     width: 46px;
     height: 46px;
     cursor: pointer;
+    flex-shrink: 0;
 }
