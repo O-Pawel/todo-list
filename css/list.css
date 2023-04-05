@@ -6,6 +6,9 @@
 .list__item {
     display: flex;
     align-items: center;
+    padding: 2px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
 }
 
 .list__task {
